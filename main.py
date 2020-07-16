@@ -53,6 +53,4 @@ async def logout(ctx):
         await ctx.bot.logout()
     else: await ctx.send("Perdón... no puedes desconectarme! Eso sería muy grosero de tu parte :open_mouth:")
 
-
-token = "NzI2MzcwNzE4MzA4MTA2MjQy.XvcUWA.uQnFlXfN4kOtBSmYUbCFWVqbNJ8"
-client.run(token)
+client.run("token")
